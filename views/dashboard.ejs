@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/sidebar.css">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="dashboard">
+
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Clients</a>
+                <a href="#">Contact</a>
+            </div>
+            <div id="right-dashboard">
+                <div class="nav flex items-center justify-between bg-sky-400 w-full p-3	">
+                    <div class="left flex items-center gap-2">
+                        <img class="h-[40px]" src="/images/tcps logo.jpeg" alt="">
+                        <h1>TCPS Admin Panel</h1>
+                    </div>
+                    <div class="right flex items-center gap-2">
+                        <a href="">Logout</a>
+                        <button class="openbtn" onclick="openNav()">☰</button>
+                    </div>
+                </div>
+                <!-- Admin Panel Content -->
+                <div class="admin-content">
+                    <h2>Welcome to the Admin Panel</h2>
+                    <p>Here you can manage your website's content and users.</p>
+                    <!-- Add more admin content here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/sidebar.js"></script>
+</body>
+
+</html>
